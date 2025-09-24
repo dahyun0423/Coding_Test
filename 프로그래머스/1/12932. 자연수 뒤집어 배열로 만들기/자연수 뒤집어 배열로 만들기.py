@@ -1,6 +1,5 @@
 def solution(n):
-    reserved_num = int(str(n)[::-1])
-    answer = []
-    answer.append(reserved_num)
-    
-    return answer
+    num = []
+    num = map(int,str(n)[::-1])
+    reserved_num = list(num)
+    return reserved_num
