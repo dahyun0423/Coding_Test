@@ -1,2 +1,2 @@
 def solution(s):
-    return float(s)
+    return int(s)
