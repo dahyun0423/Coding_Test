@@ -5,7 +5,7 @@ def solution(num):
             num //= 2
             count +=1
         else:
-            num = num * 3 + 1
+            num = (num * 3) + 1
             count+=1
         if count > 500 and num != 1:
             return -1
